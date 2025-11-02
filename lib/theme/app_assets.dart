@@ -14,4 +14,9 @@ abstract class AppAssets{
   static const String shape3 = "assets/images/onboarding_screen/Frame 4.png";
   static const String shape4 = "assets/images/onboarding_screen/Frame 5.png";
   static const String shape5 = "assets/images/onboarding_screen/Frame 6.png";
+  static const String hadethBg = "assets/images/home_screen/hadith_bg.png";
+  static const String quranBg = "assets/images/home_screen/quran_bg.png";
+  static const String radioBg = "assets/images/home_screen/radio_bg.png";
+  static const String sebhaBg = "assets/images/home_screen/sebha_bg.png";
+  static const String moraBg = "assets/images/home_screen/more_bg.png";
 }
