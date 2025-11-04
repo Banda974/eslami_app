@@ -19,4 +19,5 @@ abstract class AppAssets{
   static const String radioBg = "assets/images/home_screen/radio_bg.png";
   static const String sebhaBg = "assets/images/home_screen/sebha_bg.png";
   static const String moraBg = "assets/images/home_screen/more_bg.png";
+  static const String quranLogo = "assets/images/home_screen/quran-svgrepo-com 1.png";
 }

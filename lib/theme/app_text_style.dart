@@ -35,6 +35,7 @@ abstract class AppTextStyle {
     color: AppColors.white,
   );
   static TextStyle labelLarge = TextStyle(
+
     fontSize: 20,
     fontWeight: FontWeight.bold,
     color: AppColors.gold,

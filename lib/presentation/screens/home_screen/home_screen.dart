@@ -1,4 +1,5 @@
-import 'package:eslami_app/theme/app_assets.dart';
+import 'package:eslami_app/presentation/screens/home_screen/tabs/home_tab/home_tab.dart';
+import 'package:eslami_app/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -8,35 +9,34 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Image.asset(
-          AppAssets.quranBg,
-          fit: BoxFit.fill,
-          height: double.infinity,
-        ),
-        Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Colors.black.withValues(alpha: .23),
-                Colors.black.withValues(alpha: .5),
-                Colors.black.withValues(alpha: .23),
-              ],
+    return Scaffold(
+      body: HomeTab(),
+      bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: AppColors.gold,
+          selectedItemColor: AppColors.white,
+          unselectedItemColor: AppColors.gray,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.menu_book_outlined),
+              label: "Quran",
             ),
-          ),
-        ),
-
-        SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [Image.asset(AppAssets.mosque2)],
-          ),
-        ),
-
-      ],
+            BottomNavigationBarItem(
+              icon: Icon(Icons.menu_book_rounded),
+              label: "Hadith",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.menu_book_outlined),
+              label: "sebha",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.radio_outlined),
+              label: "radio",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.bar_chart),
+              label: "Time",
+            ),
+      ]),
     );
   }
 }
