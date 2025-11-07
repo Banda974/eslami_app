@@ -79,6 +79,9 @@ class HomeTab extends StatelessWidget {
                 ),
                 SizedBox(height: 16),
                 Row(children: [
+                  Container(
+                    child: Text("data"),
+                  )
 
                 ]),
               ],
