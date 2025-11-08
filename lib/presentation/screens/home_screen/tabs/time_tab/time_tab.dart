@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RadioTab extends StatelessWidget {
-  const RadioTab({super.key});
+class TimeTab extends StatelessWidget {
+  const TimeTab({super.key});
 
   @override
   Widget build(BuildContext context) {

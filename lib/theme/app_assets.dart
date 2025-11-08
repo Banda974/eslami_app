@@ -20,4 +20,10 @@ abstract class AppAssets{
   static const String sebhaBg = "assets/images/home_screen/sebha_bg.png";
   static const String moraBg = "assets/images/home_screen/more_bg.png";
   static const String quranLogo = "assets/images/home_screen/quran-svgrepo-com 1.png";
+  static const String sebhaIc = "assets/images/bottim_navigation_bar/ic_sebha.png";
+  static const String hadithIc = "assets/images/bottim_navigation_bar/Page-1.png";
+  static const String quranIc = "assets/images/bottim_navigation_bar/Vector.png";
+  static const String radioIc = "assets/images/bottim_navigation_bar/Vector2.png";
+  static const String timeIc = "assets/images/bottim_navigation_bar/Vector3.png";
+
 }

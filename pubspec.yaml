@@ -62,6 +62,7 @@ flutter:
     - assets/images/splash_screen/
     - assets/images/onboarding_screen/
     - assets/images/home_screen/
+    - assets/images/bottim_navigation_bar/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
